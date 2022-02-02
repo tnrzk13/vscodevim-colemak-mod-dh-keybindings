@@ -1,5 +1,5 @@
 {
-  // vim mappings of jooize's vim-colemak mappings from https://github.com/jooize/vim-colemak
+  // vim mappings of jooize's vim-colemak mappings from https://github.com/jooize/vim-colemak along with my own configs
   // Legend:
   // <C-X>     Ctrl-X
   // (c     )  Command-line mode
