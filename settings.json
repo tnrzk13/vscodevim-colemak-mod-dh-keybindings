@@ -200,6 +200,11 @@
       {
       "before": ["g", "L"],
       "after": ["L"]
+      },
+
+      {
+        "before":["m"], 
+        "after":["<leader>", "<leader>", "f"]
       }
   ],
 
@@ -448,7 +453,9 @@
   // (  n  x)  s (Substitute [count] characters) [Use wi = cl]
   // (  n  x)  S (Substitute [count] lines) [Use ww = cc]
   // (  n  x)  X (Cut [count] characters backwards) [Use dh = dh]
-  "vim.easymotion": true,
-  "vim.foldfix": true,    
-  "vim.leader": "<space>"
+"vim.easymotion": true,
+"vim.foldfix": true,    
+"vim.leader": "<space>",
+"vim.useSystemClipboard": true,
+"vim.hlsearch": true
 }
