@@ -204,7 +204,7 @@
 
       {
         "before":["m"], 
-        "after":["<leader>", "<leader>", "f"]
+        "after":["leader", "leader", "f"]
       }
   ],
 
