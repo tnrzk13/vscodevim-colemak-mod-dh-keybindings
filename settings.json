@@ -201,12 +201,16 @@
       "before": ["g", "L"],
       "after": ["L"]
     },
-
     {
       "before": ["m"],
       "after": ["leader", "leader", "f"]
+    },
+    {
+      "before": ["M"],
+      "after": ["leader", "leader", "F"]
     }
   ],
+
 
   "vim.visualModeKeyBindingsNonRecursive": [
     // Default movement (up, down, left, right)
