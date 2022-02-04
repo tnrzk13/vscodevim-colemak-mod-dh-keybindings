@@ -1,5 +1,5 @@
 {
-  // vim mappings of jooize's vim-colemak mappings from https://github.com/jooize/vim-colemak along with my own configs
+  // vim mappings of jooize's vim-colemak mappings from https://github.com/jooize/vim-colemak
   // Legend:
   // <C-X>     Ctrl-X
   // (c     )  Command-line mode
@@ -13,18 +13,14 @@
     // (  novx)  h = h (Left)     i = l (Right)     e = k (Up)     n = j (Down)
     {
       "before": ["n"],
-      "after": ["h"]
-    },
-    {
-      "before": ["e"],
       "after": ["j"]
     },
     {
-      "before": ["i"],
+      "before": ["e"],
       "after": ["k"]
     },
     {
-      "before": ["o"],
+      "before": ["i"],
       "after": ["l"]
     },
 
@@ -94,14 +90,6 @@
     {
       "before": ["W"],
       "after": ["C"]
-    },
-    {
-      "before": ["h"],
-      "after": ["o"]
-    },
-    {
-      "before": ["H"],
-      "after": ["O"]
     },
 
     // undo, cut, copy, paste
@@ -211,24 +199,19 @@
     }
   ],
 
-
   "vim.visualModeKeyBindingsNonRecursive": [
     // Default movement (up, down, left, right)
     // (  novx)  h = h (Left)     i = l (Right)     e = k (Up)     n = j (Down)
     {
       "before": ["n"],
-      "after": ["h"]
-    },
-    {
-      "before": ["e"],
       "after": ["j"]
     },
     {
-      "before": ["i"],
+      "before": ["e"],
       "after": ["k"]
     },
     {
-      "before": ["o"],
+      "before": ["i"],
       "after": ["l"]
     },
 
@@ -371,18 +354,14 @@
     // (  novx)  h = h (Left)     i = l (Right)     e = k (Up)     n = j (Down)
     {
       "before": ["n"],
-      "after": ["h"]
-    },
-    {
-      "before": ["e"],
       "after": ["j"]
     },
     {
-      "before": ["i"],
+      "before": ["e"],
       "after": ["k"]
     },
     {
-      "before": ["o"],
+      "before": ["i"],
       "after": ["l"]
     },
 
